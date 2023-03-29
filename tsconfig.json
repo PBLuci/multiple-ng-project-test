@@ -12,7 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "myLibrary": [
+      "my-library": [
         "dist/my-library"
       ]
     },

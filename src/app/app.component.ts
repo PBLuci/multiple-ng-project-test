@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyLibraryService } from 'my-library';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'multiple-applications';
+
+  constructor(private libService: MyLibraryService){
+    libService.log('hello from main app')
+  }
 }

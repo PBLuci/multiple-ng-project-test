@@ -4,8 +4,9 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project myLibrary` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project myLibrary`.
-> Note: Don't forget to add `--project myLibrary` or else it will be added to the default project in your `angular.json` file. 
+Run `ng generate component component-name --project my-library` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project my-library`.
+
+> Note: Don't forget to add `--project myLibrary` or else it will be added to the default project in your `angular.json` file.
 
 ## Build
 
@@ -13,7 +14,7 @@ Run `ng build myLibrary` to build the project. The build artifacts will be store
 
 ## Publishing
 
-After building your library with `ng build myLibrary`, go to the dist folder `cd dist/my-library` and run `npm publish`.
+After building your library with `ng build my-library`, go to the dist folder `cd dist/my-library` and run `npm publish`.
 
 ## Running unit tests
 

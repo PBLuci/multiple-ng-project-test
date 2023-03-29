@@ -197,7 +197,7 @@
         }
       }
     },
-    "myLibrary": {
+    "my-library": {
       "projectType": "library",
       "root": "projects/my-library",
       "sourceRoot": "projects/my-library/src",
