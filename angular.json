@@ -202,6 +202,11 @@
       "root": "projects/my-library",
       "sourceRoot": "projects/my-library/src",
       "prefix": "lib",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

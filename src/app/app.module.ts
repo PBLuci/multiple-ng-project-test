@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MyLibraryComponent, MyLibraryService } from 'my-library';
+import { MyLibraryComponent, MyLibraryService, SimpleButtonComponent } from 'my-library';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     MyLibraryComponent,
+    SimpleButtonComponent,
   ],
   providers: [MyLibraryService],
   bootstrap: [AppComponent]
